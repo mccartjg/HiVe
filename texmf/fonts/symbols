@@ -1,0 +1,173 @@
+\<lbind>                code: 0x002989  group: zsym abbrev: <|
+\<rbind>                code: 0x00298A  group: zsym abbrev: |>
+\<olambda>              code: 0x002B64  group: operator abbrev: %
+\<glambda>              code: 0x002B65  group: zsym
+\<defs>                 code: 0x002259  group: xsym
+\<arb>                  code: 0x002b52  group: xsym
+\<pset>                 code: 0x01D547  group: zsym
+\<fset>                 code: 0x01D53D  group: zsym
+\<arithmos>             code: 0x01D538  group: zsym abbrev: arith
+\<univ>                 code: 0x01D54C  group: xsym abbrev: univ
+\<finset>               code: 0x002b53  group: xsym abbrev: fin
+\<card>                 code: 0x002b54  group: xsym abbrev: card
+\<xexp>                 code: 0x002b55  group: xsym abbrev: exp
+\<option>               code: 0x002b56  group: xsym abbrev: opt
+\<None>                 code: 0x002b57  group: xsym abbrev: None
+\<abs>                  code: 0x002b58  group: xsym abbrev: abs
+\<^bzup>                code: 0x002197  group: control_block  font: IsabelleText  abbrev: =^[
+\<^ezup>                code: 0x002196  group: control_block  font: IsabelleText  abbrev: =^]
+\<^bzub>                code: 0x002198  group: control_block  font: IsabelleText  abbrev: =_[
+\<^ezub>                code: 0x002199  group: control_block  font: IsabelleText  abbrev: =_]
+\<zspot>                code: 0x002981  group: zsym
+\<zshide>               code: 0x0029F9  group: zsym
+\<zsproj>               code: 0x002a21  group: zsym
+\<zscomp>               code: 0x002a1f  group: zsym
+\<zspipe>               code: 0x002a20  group: zsym
+\<zfirst>               code: 0x002B7C  group: zword  abbrev: first  abbrev: fst
+\<zsecond>              code: 0x002B7B  group: zword  abbrev: second  abbrev: snd
+\<zfcomp>               code: 0x002a3e  group: zsym
+\<zdres>                code: 0x0025c1  group: zsym  abbrev: <|
+\<zrres>                code: 0x0025b7  group: zsym  abbrev: |>
+\<zdsub>                code: 0x002A64  group: zsym  abbrev: <|-
+\<zrsub>                code: 0x002A65  group: zsym  abbrev: |>-
+\<zrel>                 code: 0x002B61  group: zsym  abbrev: <->
+\<zmapsto>              code: 0x002B62  group: zsym  abbrev: |->
+\<zdom>                 code: 0x002B70  group: zword  abbrev: dom
+\<zran>                 code: 0x002B71  group: zword  abbrev: ran
+\<zid>                  code: 0x002B72  group: zword  abbrev: id
+\<zbcomp>               code: 0x002B63  group: zsym
+\<ztfun>                code: 0x002B60  group: zsym  abbrev: ->
+\<zpfun>                code: 0x0021F8  group: zsym  abbrev: +>
+\<zpinj>                code: 0x002914  group: zsym  abbrev: >+>
+\<zinj>                 code: 0x0021A3  group: zsym  abbrev: >->
+\<zpsurj>               code: 0x002900  group: zsym  abbrev: +>>
+\<zsurj>                code: 0x0021A0  group: zsym  abbrev: ->>
+\<zbij>                 code: 0x002916  group: zsym  abbrev: >->>
+\<zffun>                code: 0x0021FB  group: zsym  abbrev: ++>
+\<zfinj>                code: 0x002915  group: zsym  abbrev: >++>
+\<zmfun>                code: 0x002b66  group: zsym  abbrev: -m>
+\<zpcont>               code: 0x0027f4  group: zsym  abbrev: +o>
+\<zcont>                code: 0x0021f4  group: zsym  abbrev: -o>
+\<zminus>               code: 0x002212  group: zsym
+\<zsucc>                code: 0x002B73  group: zword  abbrev: succ
+\<zcard>                code: 0x002B6C  group: zsym
+\<zbref>                code: 0x002B6D  group: zsym
+\<zmod>                 code: 0x002B74  group: zword  abbrev: mod
+\<zdiv>                 code: 0x002B75  group: zword  abbrev: div
+\<zmin>                 code: 0x002B76  group: zword  abbrev: min
+\<zmax>                 code: 0x002B77  group: zword  abbrev: max
+\<zseq>                 code: 0x002B78  group: zword  abbrev: seq
+\<ziseq>                code: 0x002B79  group: zword  abbrev: iseq
+\<lang>                 code: 0x003008  group: zsym
+\<rang>                 code: 0x003009  group: zsym
+\<zcat>                 code: 0x002040  group: zsym
+\<zrev>                 code: 0x002B7A  group: zword  abbrev: rev
+\<zlast>                code: 0x002B7F  group: zword  abbrev: last
+\<zhead>                code: 0x002B80  group: zword  abbrev: head abbrev: hd
+\<zfront>               code: 0x002B7D  group: zword  abbrev: front
+\<ztail>                code: 0x002B7E  group: zword  abbrev: tail abbrev: tl
+\<zbag>                 code: 0x002B81  group: zword  abbrev: bag
+\<lbag>                 code: 0x002B67  group: zsym
+\<rbag>                 code: 0x002B68  group: zsym
+\<inbag>                code: 0x0022FF  group: zsym
+\<subbag>               code: 0x002B69  group: zsym
+\<bunion>               code: 0x002B6A  group: zsym
+\<bdiff>                code: 0x002B6B  group: zsym
+\<bitems>               code: 0x002B82  group: zword  abbrev: items
+\<if>                   code: 0x002B83  group: zword  abbrev: if
+\<then>                 code: 0x002B84  group: zword  abbrev: then
+\<else>                 code: 0x002B85  group: zword  abbrev: else
+\<elif>                 code: 0x002B8E  group: zword  abbrev: elif
+\<fi>                   code: 0x002B86  group: zword  abbrev: fi
+\<case>                 code: 0x002B87  group: zword  abbrev: case
+\<esac>                 code: 0x002B88  group: zword  abbrev: esac
+\<let>                  code: 0x002B89  group: zword  abbrev: let
+\<where>                code: 0x002B8A  group: zword  abbrev: where
+\<True>                 code: 0x002B8B  group: zword  abbrev: tt
+\<False>                code: 0x002B8C  group: zword  abbrev: ff
+\<of>                   code: 0x002B8D  group: zword  abbrev: of
+\<lopen>                code: 0x002B14  group: punctuation  abbrev: (-
+\<ropen>                code: 0x002B15  group: punctuation  abbrev: -)
+\<lclose>               code: 0x002B18  group: punctuation  abbrev: (-
+\<rclose>               code: 0x002B19  group: punctuation  abbrev: -)
+\<lloose>               code: 0x002B20  group: punctuation  abbrev: <-
+\<rloose>               code: 0x002B21  group: punctuation  abbrev: ->
+\<zlImg>                code: 0x002B50  group: punctuation  abbrev: zlImg
+\<zrImg>                code: 0x002B51  group: punctuation  abbrev: zrImg
+\<icat>                 code: 0x002b24  group: operator
+\<irchop>               code: 0x002b25  group: operator
+\<ilchop>               code: 0x002b26  group: operator
+\<rightbolt>            code: 0x002188  group: arrow
+\<leftbolt>             code: 0x002189  group: arrow
+\<upharpoonleftbar>     code: 0x002958  group: zsym
+\<upharpoonrightbar>    code: 0x002954  group: zsym
+\<supzero>              code: 0x002070  group: digit
+\<supone>               code: 0x0000B9  group: digit
+\<suptwo>               code: 0x0000B2  group: digit
+\<supthree>             code: 0x0000B3  group: digit
+\<supfour>              code: 0x002074  group: digit
+\<supfive>              code: 0x002075  group: digit
+\<supsix>               code: 0x002076  group: digit
+\<supseven>             code: 0x002077  group: digit
+\<supeight>             code: 0x002078  group: digit
+\<supnine>              code: 0x002079  group: digit
+\<subzero>              code: 0x002080  group: digit
+\<subone>               code: 0x002081  group: digit
+\<subtwo>               code: 0x002082  group: digit
+\<subthree>             code: 0x002083  group: digit
+\<subfour>              code: 0x002084  group: digit
+\<subfive>              code: 0x002085  group: digit
+\<subsix>               code: 0x002086  group: digit
+\<subseven>             code: 0x002087  group: digit
+\<subeight>             code: 0x002088  group: digit
+\<subnine>              code: 0x002089  group: digit
+\<supi>                 code: 0x002071  group: letter
+\<supplus>              code: 0x00207a  group: letter
+\<supminus>             code: 0x00207b  group: letter
+\<supn>                 code: 0x00207f  group: letter
+\<subplus>              code: 0x00208a  group: letter
+\<subminus>             code: 0x00208b  group: letter
+\<boxhor>               code: 0x002b59  group: box
+\<boxver>               code: 0x002502  group: box
+\<boxuc>                code: 0x00250C  group: box
+\<boxlc>                code: 0x002514  group: box
+\<boxst>                code: 0x00251C  group: box
+\<boxdhor>              code: 0x002b5a  group: box
+\<boxduc>               code: 0x002552  group: box
+\<xin>                  code: 0x002bb0  group: xsym  abbrev: xin
+\<xsub>                 code: 0x002bb1  group: xsym  abbrev: xsub
+\<xsubeq>               code: 0x002bb2  group: xsym  abbrev: xsubseq
+\<xlbrace>              code: 0x002bb3  group: xsym  abbrev: xlbrace
+\<xrbrace>              code: 0x002bb4  group: xsym  abbrev: xrbrace
+\<xunion>               code: 0x002bb5  group: xsym  abbrev: xunion
+\<xUnion>               code: 0x002bb6  group: xsym  abbrev: xUnion
+\<xinter>               code: 0x002bb7  group: xsym  abbrev: xinter
+\<xInter>               code: 0x002bb8  group: xsym  abbrev: xInter
+\<xsetminus>            code: 0x002bb9  group: xsym  abbrev: xsetminus
+\<xdot>                 code: 0x002bba  group: xsym  abbrev: xdot
+\<xlambda>              code: 0x002bbb  group: xsym  abbrev: xlambda
+\<xemp>                 code: 0x002bbc  group: xsym  abbrev: xemp
+\<xpow>                 code: 0x002bbd  group: xsym  abbrev: xpow
+\<xlparr>               code: 0x002bbe  group: xsym  abbrev: xlparr
+\<xrparr>               code: 0x002bbf  group: xsym  abbrev: xrparr
+\<xlImg>                code: 0x002bc0  group: xsym  abbrev: xlImg
+\<xrImg>                code: 0x002bc1  group: xsym  abbrev: xrImg
+\<xtimes>               code: 0x002bc2  group: xsym  abbrev: xtimes
+\<ozero>                code: 0x002bd0  group: xsym  abbrev: ozero
+\<osuc>                 code: 0x002bd1  group: xword  abbrev: osuc
+\<olim>                 code: 0x002bd2  group: xword  abbrev: olim
+\<omax>                 code: 0x002bd3  group: xsym  abbrev: omax
+\<oapprox>              code: 0x002bd4  group: xsym  abbrev: oapprox
+\<linf>                 code: 0x002bd6  group: xsym  abbrev: linf
+\<lsup>                 code: 0x002bd7  group: xsym  abbrev: lsup
+\<lINF>                 code: 0x002bd8  group: xsym  abbrev: lINF
+\<lSUP>                 code: 0x002bd9  group: xsym  abbrev: lSUP
+\<lbot>                 code: 0x002bda  group: xsym  abbrev: lbot
+\<ltop>                 code: 0x002bdb  group: xsym  abbrev: ltop
+\<lcomp>                code: 0x002bdc  group: xsym  abbrev: lcomp
+\<lLFP>                 code: 0x002bdd  group: xsym  abbrev: lLFP
+\<lGFP>                 code: 0x002bde  group: xsym  abbrev: lGFP
+\<ple>                  code: 0x0021db  group: xarrow  abbrev: ple
+\<pge>                  code: 0x0021da  group: xarrow  abbrev: pge
+\<peq>                  code: 0x002be0  group: xsym  abbrev: peq
+ 

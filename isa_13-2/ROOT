@@ -1,0 +1,74 @@
+(*********************************************************************** 
+* HiVe theory files
+* 
+* Copyright (C) 2015 Commonwealth of Australia as represented by Defence Science and Technology 
+* Group (DST Group)
+* 
+* All rights reserved.
+*
+* The HiVe theory files are free software: released for redistribution and use, and/or modification,
+* under the BSD License, details of which can be found in the LICENSE file included in the 
+* distribution. 
+************************************************************************)
+
+chapter HiVe
+
+(*
+session "HiVe-Multivariate_Analysis" in "mathKit/Multivariate_Analysis" = "HOL" +
+  theories 
+    Multivariate_Analysis
+session "HiVe-Multivariate_Analysis" = "HOL" +
+  theories 
+    "~~/src/HOL/Multivariate_Analysis/Multivariate_Analysis"
+
+session "HiVe-Probability" (HiVe) in "mathKit/Probability" = "HiVe-Multivariate_Analysis" +
+  options [document_graph]
+  theories [document = false]
+    "~~/src/HOL/Library/Countable"
+    "~~/src/HOL/Multivariate_Analysis/Extended_Real_Limits"
+    "~~/src/HOL/Library/Permutation"
+  theories
+    Probability
+    "ex/Dining_Cryptographers"
+    "ex/Koepf_Duermuth_Countermeasure"
+  files "document/root.tex"
+
+session "HiVe-pGCL" in "mathKit/pGCL" = "HiVe-Multivariate_Analysis" +
+  options [timeout = 300]
+  theories
+	pGCL
+    "Tutorial/Primitives"
+	"Tutorial/LoopExamples"
+    "Tutorial/Monty"
+  files
+	"document/root.tex"
+	"document/root.bib"
+*)
+
+(*
+session "HiVe-mathKit" (HiVe) in mathKit = "HiVe-pGCL" +
+  theories [document = false]
+    "~~/src/HOL/Library/AList"
+    "~~/src/HOL/Library/Zorn"
+  theories
+    Math_Kit
+*)
+
+session "HiVe-mathKit" (HiVe) in mathKit = "HOL" +
+  theories [document = false]
+    "~~/src/HOL/Library/AList"
+    "~~/src/HOL/Library/Zorn"
+  theories
+    Math_Kit
+
+session scratch_session in scratch = "HiVe-mathKit" +
+  theories
+    xVAL_Type
+
+session sita_session in sita = "HiVe-mathKit" +
+  theories
+    xVAL_Type
+
+session "ZF-Sem" in "ZF-Sem" = "ZF" +
+  theories
+    HOL_Omega_Univ

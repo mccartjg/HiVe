@@ -1,0 +1,28 @@
+                       The HiVe Isabelle support distribution
+
+Version information
+
+   This is compatible with Isabelle2013-2: December 2013.
+
+Installation
+
+   Requires Isabelle2013-2, available from any of the following mirror sites:
+     * http://www.cl.cam.ac.uk/research/hvg/Isabelle/
+     * http://isabelle.in.tum.de
+     * http://mirror.cse.unsw.edu.au/pub/isabelle/index.html
+
+Other sources of information
+  
+   A discussion of the underlying Z-Toolkit implementation can be found in
+
+   B. Mahony, J. McCarthy, Linh Vu, and K. Williams 
+     Z support in the HiVe mathematical toolkit
+     Technical Report DSTO-TR-2272, DSTO, March 2009
+
+     http://dspace.dsto.defence.gov.au/dspace/handle/1947/9983
+
+     _________________________________________________________________
+
+     Please report any problems you encounter to
+       Jim.McCarthy@dsto.defence.gov.au
+     _________________________________________________________________
